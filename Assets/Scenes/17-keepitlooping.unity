@@ -724,6 +724,7 @@ MonoBehaviour:
   snakePositions:
   - {x: 0, y: 0}
   maxSnakeSize: 7
+  facingDir: {x: 0, y: 0}
 --- !u!1001 &2006530020519609880
 PrefabInstance:
   m_ObjectHideFlags: 0

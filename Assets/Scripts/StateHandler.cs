@@ -93,7 +93,7 @@ public class StateHandler : MonoBehaviour
     [SerializeField] private List<Vector2Int> snakePositions = new List<Vector2Int>();
     [SerializeField] private int maxSnakeSize = 8;
     private SnakeRenderer snake;
-    private Vector2Int facingDir;
+    [SerializeField] private Vector2Int facingDir;
 
     public bool HasSnakePos(Vector2Int pos)
     {
@@ -384,6 +384,7 @@ public class StateHandler : MonoBehaviour
         snakePositions = new List<Vector2Int>(state.snakePositions);
         snake.SetPositions(snakePositions, state.facingDir);
         maxSnakeSize = state.maxSnakeSize;
+        facingDir = state.facingDir;
 
         GameManager.Instance.SetSnakeMeter(maxSnakeSize, snakePositions.Count);
 

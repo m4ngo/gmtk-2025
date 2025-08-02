@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class SoundManager : MonoBehaviour
             Instance = this;
         }
     }
+
+    [Header("Mixer")]
+    [SerializeField] private AudioMixer mixer;
 
     [Header("SFX")]
     [SerializeField] private AudioClip[] sfx;
@@ -39,6 +43,11 @@ public class SoundManager : MonoBehaviour
             sfxSources[currentSource].panStereo = Random.Range(-0.3f, 0.3f);
         }
         currentSource = (currentSource + 1) % (sfxSources.Length);
+    }
+
+    public void SetParameter(string parameterName, float value)
+    {
+        mixer.SetFloat(parameterName, Mathf.Log10(value) * 20);
     }
 
     private void Update()

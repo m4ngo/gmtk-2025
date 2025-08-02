@@ -479,7 +479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 56224bdf60e6c4d44a64990e3905aa5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4066f767c89fa4b419df1d214be11cd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 51485480}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.5
@@ -965,7 +965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4066f767c89fa4b419df1d214be11cd3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56224bdf60e6c4d44a64990e3905aa5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1024,7 +1024,7 @@ AudioSource:
   m_GameObject: {fileID: 175481869}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 404728714}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.5
@@ -2523,7 +2523,7 @@ AudioSource:
   m_GameObject: {fileID: 438249522}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -3020,7 +3020,7 @@ AudioSource:
   m_GameObject: {fileID: 496016652}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -3185,7 +3185,7 @@ AudioSource:
   m_GameObject: {fileID: 505657707}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -3677,7 +3677,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1314774938}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.5
@@ -3725,7 +3725,7 @@ AudioSource:
   m_GameObject: {fileID: 675458788}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1751370370427255969, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -4307,7 +4307,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 988684985}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.5
@@ -5072,7 +5072,7 @@ AudioSource:
   m_GameObject: {fileID: 958770430}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -6662,7 +6662,7 @@ AudioSource:
   m_GameObject: {fileID: 1329109565}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1751370370427255969, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 8300000, guid: d3ed3d8c6ed2927409bc8c63f8dae058, type: 3}
   m_Resource: {fileID: 8300000, guid: d3ed3d8c6ed2927409bc8c63f8dae058, type: 3}
   m_PlayOnAwake: 1
@@ -7163,7 +7163,7 @@ AudioSource:
   m_GameObject: {fileID: 1379579475}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -7308,7 +7308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 56224bdf60e6c4d44a64990e3905aa5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4066f767c89fa4b419df1d214be11cd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7442,7 +7442,7 @@ AudioSource:
   m_GameObject: {fileID: 1444219286}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -8244,8 +8244,8 @@ MonoBehaviour:
     tips: "use [\u2190\u2191\u2192\u2193] to move. form a loop!"
   - levelName: direction matters
     tips: you have to be facing your tail to bite it
-  - levelName: chase it down!
-    tips: 
+  - levelName: chase your tail
+    tips: you can move your tail after reaching maximum length
   - levelName: maximum growth
     tips: 
   - levelName: fill the space
@@ -8264,13 +8264,25 @@ MonoBehaviour:
     tips: 
   - levelName: thinking box
     tips: 
-  - levelName: two loops
-    tips: 
   - levelName: stomach half full
     tips: 
+  - levelName: drag it out
+    tips: theres something new soon i promise :)
+  - levelName: two trips
+    tips: sometimes there's just too many groceries
+  - levelName: running in circles
+    tips: 
+  - levelName: keep it looping
+    tips: '(hint: counter-clockwise)'
   - levelName: lanterns!?
     tips: the lantern must be lit to win
   - levelName: two! lanterns
+    tips: 
+  - levelName: two foes
+    tips: 
+  - levelName: three of a kind
+    tips: 
+  - levelName: four of a kind
     tips: 
   levelLayout: {fileID: 81622377}
   levelButtons: []
@@ -8304,6 +8316,12 @@ MonoBehaviour:
   - {fileID: 1910008921}
   segmentCount: {fileID: 1695264296}
   segmentInactiveColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+  musicSliders:
+  - {fileID: 392460849}
+  - {fileID: 635776400}
+  sfxSliders:
+  - {fileID: 748221959}
+  - {fileID: 112566302}
 --- !u!114 &1685110550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8332,6 +8350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a22bba39e42339458632ed5b86f1c4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   sfx:
   - {fileID: 8300000, guid: 18acaec409d76414c8b159b404a5de95, type: 3}
   - {fileID: 8300000, guid: 1a3c0e4d8a131374889597c62933a0b1, type: 3}
@@ -8589,7 +8608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4066f767c89fa4b419df1d214be11cd3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56224bdf60e6c4d44a64990e3905aa5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8723,7 +8742,7 @@ AudioSource:
   m_GameObject: {fileID: 1766343625}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -9836,7 +9855,7 @@ AudioSource:
   m_GameObject: {fileID: 2005833682}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3631105409883481126, guid: d3952082dcd89854cb13b2d305ca39d8, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0

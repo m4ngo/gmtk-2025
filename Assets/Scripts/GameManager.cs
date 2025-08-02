@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.Audio;
 
 [System.Serializable]
 public class Level
@@ -49,6 +50,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Color segmentInactiveColor;
     private int currentLevel = -1;
 
+    [Header("Audio")]
+    [SerializeField] private Slider[] musicSliders;
+    [SerializeField] private Slider[] sfxSliders;
+
     private void Start()
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
@@ -71,8 +76,8 @@ public class GameManager : MonoBehaviour
         }
 
         UpdateLevelButtons();
-
         InitializeAllButtonSounds();
+        InitializeVolumeSliders();
     }
 
     public void PlayTransitionSound(bool enter)
@@ -85,6 +90,18 @@ public class GameManager : MonoBehaviour
         foreach (Button b in FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None))
         {
             b.onClick.AddListener(() => SoundManager.Instance.Play(8, 0.6f, true));
+        }
+    }
+
+    private void InitializeVolumeSliders()
+    {
+        foreach (Slider s in musicSliders)
+        {
+            s.onValueChanged.AddListener(SetMusicVolume);
+        }
+        foreach (Slider s in sfxSliders)
+        {
+            s.onValueChanged.AddListener(SetSFXVolume);
         }
     }
 
@@ -143,7 +160,7 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
-        PlayerPrefs.SetInt("completed", currentLevel+1);
+        PlayerPrefs.SetInt("completed", Mathf.Max(PlayerPrefs.GetInt("completed"), currentLevel + 1));
         UpdateLevelButtons();
 
         GUIManager.Instance.SetPage("level_end");
@@ -179,6 +196,24 @@ public class GameManager : MonoBehaviour
 
         transitionAnim.SetTrigger("End");
         PlayTransitionSound(false);
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        SoundManager.Instance.SetParameter("MusicVolume", value);
+        foreach (Slider s in musicSliders)
+        {
+            s.value = value;
+        }
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        SoundManager.Instance.SetParameter("SFXVolume", value);
+        foreach (Slider s in sfxSliders)
+        {
+            s.value = value;
+        }
     }
 }
 

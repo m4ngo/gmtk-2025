@@ -12,53 +12,71 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 8caa194daf5fa6348af2f032ab6f2a87
   - enabled: 1
-    path: Assets/Scenes/0.unity
+    path: Assets/Scenes/1-eatyourtail.unity
     guid: ea61eee8c0466214baff99f28795a872
   - enabled: 1
-    path: Assets/Scenes/1.unity
+    path: Assets/Scenes/2-directionmatters.unity
     guid: 16f930d59eb512240be3ad239b3d492f
   - enabled: 1
-    path: Assets/Scenes/1.5.unity
+    path: Assets/Scenes/3-chaseyourtail.unity
     guid: d7e13f65541325e40a84fd2f61f5db52
   - enabled: 1
-    path: Assets/Scenes/2.unity
+    path: Assets/Scenes/4-maximumgrowth.unity
     guid: 5a55c30b220c5464d930b073ee8b5e81
   - enabled: 1
-    path: Assets/Scenes/3.unity
-    guid: c2076825c7ae459489183e448fae89cb
+    path: Assets/Scenes/5-fillthespace.unity
+    guid: 46c0ca22f0e95ff40b881c5cd91d55ad
   - enabled: 1
-    path: Assets/Scenes/4.unity
+    path: Assets/Scenes/6-onewrongturn.unity
     guid: ea24c12ca4fe7e945acf616d26f91407
   - enabled: 1
-    path: Assets/Scenes/5.unity
+    path: Assets/Scenes/7-applegrow.unity
     guid: 267122e2dd0160b4a8ad9d23abafe911
   - enabled: 1
-    path: Assets/Scenes/6.unity
+    path: Assets/Scenes/8-truthandlie.unity
     guid: 355b310620e962645b28d9224b63a106
   - enabled: 1
-    path: Assets/Scenes/7.unity
+    path: Assets/Scenes/9-stayeven.unity
     guid: 59ae2f2351d2ecc46826542c3a4272c1
   - enabled: 1
-    path: Assets/Scenes/8.unity
+    path: Assets/Scenes/10-circularreasoning.unity
     guid: 2ca79d76b97965548b9ba1459dae021e
   - enabled: 1
-    path: Assets/Scenes/9.unity
+    path: Assets/Scenes/11-parityfix.unity
     guid: 25a8989c0371a3d4ab1a642b4bd21753
   - enabled: 1
-    path: Assets/Scenes/10.unity
+    path: Assets/Scenes/12-thinkingbox.unity
     guid: d7911108313400b4eb2a47c554edf59b
   - enabled: 1
-    path: Assets/Scenes/11.unity
-    guid: 1a4ba4eee6397f64fa0900ba4ce7f1c6
-  - enabled: 1
-    path: Assets/Scenes/12.unity
+    path: Assets/Scenes/13-stomachhalf.unity
     guid: 03e3971edcd006349ae6d185d937af04
   - enabled: 1
-    path: Assets/Scenes/13.unity
+    path: Assets/Scenes/14-draggingalong.unity
+    guid: 693aa44ad4990d343a224cd71629f3ad
+  - enabled: 1
+    path: Assets/Scenes/15-twotrips.unity
+    guid: 7fa9c0c4a64516a4088c0610f062d4cb
+  - enabled: 1
+    path: Assets/Scenes/16-goingincircles.unity
+    guid: 1a4ba4eee6397f64fa0900ba4ce7f1c6
+  - enabled: 1
+    path: Assets/Scenes/17-keepitlooping.unity
+    guid: 3c248e2afa2923f4d8402f348ca38071
+  - enabled: 1
+    path: Assets/Scenes/18-lanterns.unity
     guid: 4e56bc779224a2a4a96cd33c375a93e6
   - enabled: 1
-    path: Assets/Scenes/14.unity
+    path: Assets/Scenes/19-twofriends.unity
+    guid: c9894ca7a386c9b4fba9133c7914e4da
+  - enabled: 1
+    path: Assets/Scenes/20-twofoes.unity
     guid: 5ac76f09fc38ee4489ded4cc8f6e4652
+  - enabled: 1
+    path: Assets/Scenes/21-threeofakind.unity
+    guid: 286361eb976b0fe4e9fe2d8652e535f8
+  - enabled: 1
+    path: Assets/Scenes/22-fourofakind.unity
+    guid: d09ecee972016794187c583da04f84b4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
