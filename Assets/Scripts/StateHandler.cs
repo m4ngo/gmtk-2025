@@ -118,6 +118,7 @@ public class StateHandler : MonoBehaviour
     private void InitializeBoard()
     {
         boardSprite.size = boardSize;
+        boardSprite.transform.GetChild(0).localScale = boardSize + Vector2.one * 0.5f;
         boardSprite.transform.position = new Vector2(boardSize.x * 0.5f - 0.5f, boardSize.y * 0.5f - 0.5f);
         GameObject.FindGameObjectWithTag("CameraParent").transform.position = boardSprite.transform.position;
         boardTiles = new BoardTile[boardSize.x, boardSize.y];
@@ -267,6 +268,7 @@ public class StateHandler : MonoBehaviour
 
             snake.SetPositions(snakePositions, facingDir);
             MoveSound();
+            Camera.main.transform.parent.GetComponent<CameraSway>().Nudge(dir, 0.25f);
 
             // Board state has changed
             UpdateBoardState(dir);
@@ -290,7 +292,7 @@ public class StateHandler : MonoBehaviour
 
     private System.Collections.IEnumerator Win()
     {
-        Debug.Log("Game complete!");
+        //Debug.Log("Game complete!");
 
         SoundManager.Instance.Play(0, 0.3f, true);
         yield return new WaitForSecondsRealtime(0.05f);

@@ -75,8 +75,14 @@ EditorBuildSettings:
     path: Assets/Scenes/21-threeofakind.unity
     guid: 286361eb976b0fe4e9fe2d8652e535f8
   - enabled: 1
-    path: Assets/Scenes/22-fourofakind.unity
+    path: Assets/Scenes/22-threepairs.unity
     guid: d09ecee972016794187c583da04f84b4
+  - enabled: 1
+    path: Assets/Scenes/23-waitisntthisthesamepuzzle.unity
+    guid: 68707924c3c12804789986351138ffa1
+  - enabled: 1
+    path: Assets/Scenes/24-thereandbackagain.unity
+    guid: 877668887bde8eb49b59a98a0953f9a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

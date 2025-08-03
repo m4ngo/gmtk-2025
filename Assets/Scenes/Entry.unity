@@ -4128,7 +4128,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 30
+  field of view: 35
   orthographic: 0
   orthographic size: 9
   m_Depth: -1
@@ -8267,11 +8267,11 @@ MonoBehaviour:
   - levelName: stomach half full
     tips: 
   - levelName: drag it out
-    tips: theres something new soon i promise :)
-  - levelName: two trips
-    tips: sometimes there's just too many groceries
-  - levelName: running in circles
     tips: 
+  - levelName: two trips
+    tips: 
+  - levelName: running in circles
+    tips: sometimes you have to use the empty space
   - levelName: keep it looping
     tips: '(hint: counter-clockwise)'
   - levelName: lanterns!?
@@ -8282,7 +8282,11 @@ MonoBehaviour:
     tips: 
   - levelName: three of a kind
     tips: 
-  - levelName: four of a kind
+  - levelName: three pairs
+    tips: 
+  - levelName: wait isn't this the same puzzle
+    tips: 
+  - levelName: just keep looping
     tips: 
   levelLayout: {fileID: 81622377}
   levelButtons: []

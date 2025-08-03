@@ -216,11 +216,3 @@ public class GameManager : MonoBehaviour
         }
     }
 }
-
-// more levels
-// music
-// improve the level scenery
-/* 
- * add a better lead up to loop the loop... change the name of the level to be "two loops"
- * add a level before two! lanterns
- */

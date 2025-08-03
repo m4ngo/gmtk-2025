@@ -7,11 +7,29 @@ public class CameraSway : MonoBehaviour
     [SerializeField] private Vector2 swayStrength;
     [SerializeField] private float swaySpeed;
 
+    [Header("SerializeField")]
+    [SerializeField] private float nudge = 0f;
+    [SerializeField] private Vector2 nudgeDir;
+
+    public void Nudge(Vector2 dir, float time)
+    {
+        nudgeDir = dir;
+        nudge = time;
+    }
+
     private void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex > 1)
         {
-            cam.localPosition = new Vector3(0, 0, cam.localPosition.z);
+            if (nudge > 0)
+            {
+                nudge -= Time.deltaTime;
+                if (nudge < 0)
+                {
+                    nudge = 0;
+                }
+            }
+            cam.localPosition = Vector3.Lerp(cam.localPosition, (Vector3)nudgeDir * nudge + new Vector3(0, 0, cam.localPosition.z), Time.deltaTime);
             return;
         }
 
