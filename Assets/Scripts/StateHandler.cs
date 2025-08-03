@@ -118,7 +118,8 @@ public class StateHandler : MonoBehaviour
     private void InitializeBoard()
     {
         boardSprite.size = boardSize;
-        boardSprite.transform.GetChild(0).localScale = boardSize + Vector2.one * 0.5f;
+        boardSprite.transform.GetChild(0).localScale = (Vector2)boardSize;
+        boardSprite.transform.GetChild(1).localScale = boardSize + Vector2.one * 0.25f;
         boardSprite.transform.position = new Vector2(boardSize.x * 0.5f - 0.5f, boardSize.y * 0.5f - 0.5f);
         GameObject.FindGameObjectWithTag("CameraParent").transform.position = boardSprite.transform.position;
         boardTiles = new BoardTile[boardSize.x, boardSize.y];

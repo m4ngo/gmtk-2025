@@ -80,6 +80,11 @@ public class GameManager : MonoBehaviour
         InitializeVolumeSliders();
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void PlayTransitionSound(bool enter)
     {
         SoundManager.Instance.Play(enter ? 9 : 10, 0.5f, true);
